@@ -1,6 +1,6 @@
 # Cloud and Cloud Shadow detection for multitemporal PlanetScope and RapidEye Data
 
-## Idea
+## Introduction
 
 The general idea is to wrap the [gsl_multifit_robust](https://www.gnu.org/software/gsl/doc/html/lls.html#robust-linear-regression) regression method using
 `python3` to allow us to do `per-pixel time series analysis`. The original paper 
@@ -53,7 +53,7 @@ folder creates a shapefile with a world raster of points where PS and RE data
 areas that have sufficient data for time series analysis.
 
 The creation of a dense grid is rather time-intensive so it is preferable to use a sample of
-all available UTM grid tiles. The shapefiles includes the number of available data
+all available UTM grid tiles. The shapefile includes the number of available data
 sets per year for a certain sampling point. Example call:
 
 ```

@@ -52,7 +52,7 @@ folder creates a shapefile with a world raster of points where PS and RE data
 (analytic orthotiles) are available for at leat 3 years. This can help to find
 areas that have sufficient data for time series analysis.
 
-The creation of a dense grid is rather time-intensive so I used so far a sample of
+The creation of a dense grid is rather time-intensive so it is preferable to use a sample of
 all available UTM grid tiles. The shapefiles includes the number of available data
 sets per year for a certain sampling point. Example call:
 
